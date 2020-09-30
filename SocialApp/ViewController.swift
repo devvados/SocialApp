@@ -9,11 +9,19 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    //IBOutlet - переменная элемента
+    //IBAction - действие
+    
+    
+    @IBOutlet weak var myView: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+    
     }
 
-
+    @IBAction func myButtonAction(_ sender: UIButton) {
+    }
 }
 
